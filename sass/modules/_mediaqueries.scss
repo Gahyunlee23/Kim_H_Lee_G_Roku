@@ -11,7 +11,9 @@
 
     .media-year { float: none; }
 
-    .media-container:first-of-type { padding-bottom: 0; }
+    .media-container:first-of-type { 
+        margin-top: 150px;
+        padding-bottom: 0; }
 
     .media-thumb { height: 165px; }
 

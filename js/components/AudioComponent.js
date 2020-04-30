@@ -23,7 +23,7 @@ export default {
             <div class="col-12 col-sm-9">
                 <div class="thumb-wrapper clearfix">
                     <img v-for="item in allRetrievedVideos" :src="'images/' + item.music_poster" alt="media
-                    thumb" @click="loadNewMovie(item)" class="img-thumbnail rounded float-left
+                    thumb" @click="loadNewAudio(item)" class="img-thumbnail rounded float-left
                     media-thumb">
                 </div>
             </div>
@@ -66,8 +66,8 @@ export default {
 
         },
 
-        loadNewMovie(movie) {
-            this.currentMediaDetails = movie;
+        loadNewAudio(song) {
+            this.currentMediaDetails = song;
         }
     }
 }

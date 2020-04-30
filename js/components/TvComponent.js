@@ -63,7 +63,7 @@ export default {
 
         },
 
-        loadNewTv(Tv) {
+        loadNewTv(tv) {
             this.currentMediaDetails = tv;
         }
     }
